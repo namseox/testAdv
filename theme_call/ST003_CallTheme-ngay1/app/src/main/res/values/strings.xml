@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ST003_CallTheme</string>
+    <string name="logo_splash1">Call</string>
+    <string name="logo_splash2"> Theme</string>
+    <string name="next">Next</string>
+    <string name="personalize_your_call">Personalize your call theme\nin the most perfect way</string>
+    <string name="easy_to_create">A variety of avatars and icons\\nto unleash your creativity</string>
+    <string name="flash_effect_incoming">Flash effect on incoming call</string>
+    <string name="tab1">All</string>
+    <string name="tab2">Anime</string>
+    <string name="tap3">Movie</string>
+    <string name="tab4"><![CDATA[Car & Moto]]></string>
+    <string name="tab5">Halloween</string>
+    <string name="tab6">Neutral</string>
+    <string name="tab7">Animals</string>
+</resources>

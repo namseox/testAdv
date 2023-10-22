@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/themesFragment"
+        android:icon="@drawable/ic_themes"
+        android:title="Themes"  />
+    <item
+        android:id="@+id/diyThemeFragment"
+        android:icon="@drawable/ic_diy_theme"
+        android:title="DIY Theme" />
+    <item
+        android:id="@+id/myDesignFragment"
+        android:icon="@drawable/ic_my_design"
+        android:title="My Design" />
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_setting"
+        android:title="Settings" />
+</menu>

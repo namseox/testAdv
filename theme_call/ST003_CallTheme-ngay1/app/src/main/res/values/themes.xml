@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ST003_CallTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ST003_CallTheme" parent="Base.Theme.ST003_CallTheme" />
+    <style name="Widget.App.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TabLayout</item>
+        <item name="tabTextAppearance">@style/TextAppearance.App.Button</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TabLayout" parent="">
+        <item name="colorPrimary">@color/shrine_pink_light</item>
+        <item name="colorSurface">@color/shrine_pink_light</item>
+        <item name="colorOnSurface">@color/shrine_pink_900</item>
+
+    </style>
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+<!--        <item name="fontFamily">@font/rubik</item>-->
+<!--        <item name="android:fontFamily">@font/rubik</item>-->
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

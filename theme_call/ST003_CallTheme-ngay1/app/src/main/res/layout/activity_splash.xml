@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_splash">
+
+        <ImageView
+            android:layout_width="@dimen/logo_splash"
+            android:layout_height="@dimen/logo_splash"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:src="@drawable/photo_splash_logo"
+            app:layout_constraintBottom_toTopOf="@+id/tv_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:text="@string/logo_splash1"
+                android:textColor="@color/loggo_splash1"
+                android:textSize="@dimen/dp_32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/dp_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:text="@string/logo_splash2"
+                android:textColor="@color/loggo_splash2"
+                android:textSize="@dimen/dp_32" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

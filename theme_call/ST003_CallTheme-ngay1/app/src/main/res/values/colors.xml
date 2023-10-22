@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loggo_splash1">#00AF65</color>
+    <color name="loggo_splash2">#FFFFFFFF</color>
+    <color name="tutorial_pageIndicator">#00AF65</color>
+    <color name="shrine_pink_900">#4F5053</color>
+    <color name="shrine_pink_light">#FFFFFF</color>
+    <color name="bg_theme">#242944</color>
+</resources>

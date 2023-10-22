@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720602963534",
+    "project_id": "st003-calltheme",
+    "storage_bucket": "st003-calltheme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720602963534:android:5d175a551268545698ed1f",
+        "android_client_info": {
+          "package_name": "com.namseox.st003_calltheme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkkvBFMG6lLvK1JzRnVovvFj7D4REm22E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
